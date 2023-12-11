@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+
+    <h1>Survey</h1>
+
+<form>
+
+    <p>
+        <label for="name">Name*</label>
+        <textarea name="name" id="name" cols="30" rows="1" placeholder="Last, First"></textarea>
+    </p>
+
+
+    <p>
+        <label for="email">Email*</label>
+        <textarea name="email" id="email" cols="30" rows="1" placeholder="Email"></textarea>
+    </p>
+
+
+    <p>
+        <label for="tel">Telephone*</label>
+        <textarea name="tel" id="tel" cols="30" rows="1" placeholder="nnnnn (-nnnn)"></textarea>
+    </p>
+
+
+    <label for="info">How did you come across this page?<br /></label>
+    <select name="infoQ" id="info" size="4">
+        <option value="internet">Internet</option>
+        <option value="class">Class</option>
+        <option value="application">Application</option>
+        <option value="other">Other</option>
+
+    </select>
+
+    <br>
+
+<p>
+
+    <div class="buttons">
+    <label for="buttons">Pick your favorite</label>
+    <input type="radio" id="blue" name="color" >
+    <label for="blue">Blue</label>
+    <input type="radio" id="red" name="color">
+    <label for="red">Red</label>
+    <input type="radio" id="yellow" name="color">
+    <label for="yellow">Yellow</label> 
+    </div>
+</p>
+
+    <div class="checkbox">
+        <input name="Do you like cats?" id="catsQ" value="yes" type="checkbox" />
+        <label for="catsQ">Do you like cats?
+        </label>
+
+        <input name="College student?" id="collegeQ" value="yes" type="checkbox" />
+        <label for="collegeQ">Are you a college student?
+        </label>
+
+        <input name="Are You Happy?" id="happyQ" value="yes" type="checkbox" />
+        <label for="happyQ">Are You Happy?
+        </label>
+
+
+       
+    </div>
+
+ <br> 
+
+        <label for="rangeBox">Rate this Survey</label>
+
+        <input name="serveyRate" id="rangeBox" type="range" value="5" step="1" min="0" max="10"> 
+
+        <br> 
+<p>
+
+    <button type="submit" id="submit">Submit</button> 
+
+    <button type="reset" id="reset">Reset</button> 
+</p> 
+
+</form>
+
+</body>

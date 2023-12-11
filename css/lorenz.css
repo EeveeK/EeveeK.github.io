@@ -1,0 +1,102 @@
+img { 
+    width: 200px; 
+} 
+
+section { 
+    padding-top: 10%;
+} 
+
+body { 
+    background-image: url("../images/background_purple.jpg"); 
+    background-size:cover;  
+    margin: 0 0 0 0; 
+    background-repeat: no-repeat;
+}  
+
+p { 
+    color: maroon; 
+    padding: 5% 5% 5% 5%;  
+    font-size: 130%;
+} 
+
+h4, li { 
+    color: maroon; 
+    padding: 0 5% 0 5%;  
+    font-size: 130%;
+} 
+
+h1 { 
+    text-align: center; 
+    color: maroon; 
+    margin-bottom: 0; 
+}
+
+#Vic { 
+    float:inline-end; 
+    padding: 2%;
+} 
+
+#cutscene { 
+    float: right;
+    padding: 2%;
+} 
+
+
+#Corenz { 
+    float: left; 
+    padding: 2%;
+}  
+
+
+
+blockquote { 
+    font-weight: bold; 
+    color: maroon; 
+    padding: 10% 5% 10% 5%;  
+    font-size: 130%;
+}
+
+/* ---------------------------------------------------*/
+
+@media only screen and (max-width: 1000px) {
+  
+    img { 
+        width: 200px; 
+    }
+
+}
+
+/* ============================================
+   Tablet and Desktop Styles: 481px and greater 
+   ============================================
+*/
+
+@media only screen and (min-width: 1001px) {
+
+    img { 
+        width: 500px; 
+
+    }
+
+    p { 
+        font-size:x-large;
+    }
+
+}
+
+footer { 
+    color: maroon; 
+    text-align: justify;
+}
+
+footer > a { 
+
+    color: blue;
+
+} 
+
+footer { 
+    padding: 3%; 
+float: right; 
+
+}

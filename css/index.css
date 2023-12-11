@@ -1,0 +1,65 @@
+
+
+
+h1 { 
+    text-align: center; 
+    margin: 5% 5% 5% 5% ; 
+    background-color: white;
+} 
+
+
+
+
+a { 
+    color: maroon;
+}  
+
+section>ul>li { 
+    list-style: none; 
+    line-height: 600%; 
+} 
+
+
+/* ---------------------------------------------------*/
+
+@media only screen and (max-width: 1000px) {
+  
+    img { 
+        width: 80px; 
+    }
+
+    body { 
+        background-image: url("../images/rocks.jpg"); 
+        background-size:cover; 
+        background-position:50% 30%; /* Center the image */ 
+        background-attachment: fixed;
+        background-repeat: no-repeat; /* Do not repeat the image */ 
+        color: maroon; 
+        margin: 0 0 0 0;
+    } 
+
+}
+
+/* ============================================
+   Tablet and Desktop Styles: 481px and greater 
+   ============================================
+*/
+
+@media only screen and (min-width: 1001px) {
+
+    img { 
+        width: 150px;
+    }
+
+    body { 
+        background-image: url("../images/rocks.jpg"); 
+        background-size:cover; 
+        background-attachment: fixed;
+        background-position: 50% 30%;
+        background-repeat: no-repeat; /* Do not repeat the image */ 
+        color: maroon; 
+        margin: 0 0 0 0;
+    }  
+    
+
+}

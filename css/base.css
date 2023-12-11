@@ -1,0 +1,29 @@
+@import url(reset.css);
+
+
+nav { 
+
+    width: 100%;
+    background-color: white; 
+    margin: 0 0 0 0;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: table;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: table-row; 
+    margin: 0 0 0 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav ul li {
+    text-align: center; 
+    display: table-cell; 
+    font-size: large;
+    width: 30%;
+}

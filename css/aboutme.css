@@ -1,0 +1,83 @@
+img { 
+    width: 200px; 
+
+} 
+
+
+body { 
+    background-size:cover;  
+    margin: 0 0 0 0;
+    background-color:darkmagenta;
+}  
+
+div.Content { 
+    color: goldenrod; 
+    text-align: left; 
+
+} 
+
+section { 
+    padding: 10% 5% 10% 5%;  
+    font-size: 130%;
+} 
+
+#art { 
+    float: right; 
+    padding: 2%;
+    /* shape-outside: circle();  */
+} 
+
+
+#miami { 
+    float: left; 
+    padding: 2%;
+} 
+
+#smile { 
+    float: left; 
+    padding: 2%;
+} 
+
+figcaption {
+    display: block; 
+    font-style: italic; 
+  } 
+
+figure { 
+    position:absolute; 
+
+
+}
+
+
+  h1 { 
+    font-weight: bolder; 
+    text-align:justify; 
+    margin-top: 0;
+  } 
+   
+  article { 
+        columns: 2; 
+        column-rule: 2px solid goldenrod; 
+        column-gap: 20;
+    } 
+
+    article > p { 
+        widows:  4; 
+        orphans:  4;
+    }
+
+  @media only screen and (max-width: 1000px) {
+  
+    iframe { 
+        /* width: 200px; */ 
+
+        max-width: 300px; 
+        height: auto; 
+    } 
+
+    article { 
+        columns: 1; 
+
+    } 
+}
